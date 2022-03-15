@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ar.com.oliber.garcia.xcale.ContactCustomer</OriginalElement>
+  <nodes>
+    <node x="43.0" y="221.0">ar.com.oliber.garcia.xcale.ContactCustomer</node>
+    <node x="81.5" y="116.0">ar.com.oliber.garcia.xcale.Observer</node>
+    <node x="-336.0" y="238.0">ar.com.oliber.garcia.xcale.GroupsSubscriberSimples</node>
+    <node x="-336.0" y="89.0">ar.com.oliber.garcia.xcale.GroupsSubscriber</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ar.com.oliber.garcia.xcale.GroupsSubscriberSimples" target="ar.com.oliber.garcia.xcale.GroupsSubscriber" relationship="REALIZATION">
+      <point x="0.0" y="-49.5" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="ar.com.oliber.garcia.xcale.ContactCustomer" target="ar.com.oliber.garcia.xcale.Observer" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="173.5" y="237.5" />
+  <SelectedNodes>
+    <node>ar.com.oliber.garcia.xcale.ContactCustomer</node>
+    <node>ar.com.oliber.garcia.xcale.Observer</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
